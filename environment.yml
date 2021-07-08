@@ -1,0 +1,24 @@
+name: env_timeseries_forecasting
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - setuptools
+  - wheel
+  - invoke
+  - notebook
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - numpy=1.18.5
+  - matplotlib
+  - papermill
+  - pandas
+  - scipy
+  - tensorflow-gpu
+  - cudatoolkit
+  - keras
+  - pip
+  - pip:
+      - -e .
+      - python-dotenv>=0.5.1
